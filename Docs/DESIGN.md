@@ -1,0 +1,3 @@
+1.We referenced Songs instead of embedding them to avoid duplication, support many-to-many relationships, and keep playlists scalable.
+Since the same song can appear in multiple playlists, referencing ensures data consistency and easier updates.
+2.We referenced the Artist in the Song model to avoid duplication and maintain consistency, since one artist can have many songs. Referencing allows artist details to be updated in one place and reflected across all related songs.
