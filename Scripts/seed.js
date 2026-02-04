@@ -19,7 +19,7 @@ async function seed() {
     ]);
 
     // 2. Create Artist
-    const artist = await Artist.create({ name: 'Daft Punk', genre: 'Electronic' });
+    const artist = await Artist.create({ name: 'Daft Punk', genre: 'Rock' });
     
     // 3. Create Album (Linked to Artist)
     const album = await Album.create({
